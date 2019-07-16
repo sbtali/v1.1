@@ -13,6 +13,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('client.app');
-});
+Route::get('/', 'HomeController@index');
+Route::get('ranking', 'RankingController@index');
+Route::get('analytics', 'AnalyticsController@index');
+Route::get('fund/{name}', 'FundController@index');
+
