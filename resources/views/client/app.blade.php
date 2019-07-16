@@ -19,8 +19,8 @@
 <script src="{{ asset('/js/popper.min.js') }}"></script>
 <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 <script src="../../js/vue.min.js"></script>
-<script src="../../js/app.js"></script>
 <script src="{{ asset('/js/buefy.min.js') }}"></script>
+<script src="../../js/app.js"></script>
 @yield('after_import')
 </body>
 </html>
